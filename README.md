@@ -1,1 +1,9 @@
 # knights-travails
+
+This is my twelfth project within the Full Stack JavaScript course from The Odin Project, continuing my coursework within the JavaScript chapter of the course. This project responds to the prompt wherein students are challenged to use one of the search algorithms and data structures we've learned up to this point in the course to solve the logic problem posed in the Knight's Travails. 
+
+In the original logic problem, the goal is to figure out the route a knight on a standard 8x8 chess board must take to have touched all squares on the board once and only once, landing finally at the square which was the knight's original starting point. The knight's basic move in chess is two step forward and one step to the side, or one step forward and two steps to the side (in plain terms, making an 'L' shape). This move can face any direction. The algorithm problem posed to Odin students in this project is to build a function knightMoves that shows the shortest possible way to get from one square to another (or rather, the solution to the logic problem) by outputting all squares the knight will stop at along the way. For my prompt response, I used BDS.
+
+This project continues to develop knowledge in data structures, algorithms, time/space complexity, and (now) representing graphs (such as the one created between each square the knight leaves and enters along its path), implementing this knowledge as an opportunity to practice considering the most efficient method to achieve functionality and effectively manipulate data/structures within a given context.
+
+In another attempt at this project, I might have implemented a GUI wherein the user could choose a square for the knight to start and watch as the browser animated the knight's journey around the board, eventually touching every spot.
